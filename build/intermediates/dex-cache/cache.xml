@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\AdmIn01\Desktop\appliFrais\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="ddde541c289c8b816a8f8fd6c325d80788c522a6">
+        <dex dex="C:\Users\AdmIn01\Desktop\appliFrais\app\build\intermediates\pre-dexed\debug\classes-ee2be17b481785c4cb1b516604cfb328c2235e50.jar" />
+    </item>
+    <item
+        jar="C:\Users\AdmIn01\.gradle\caches\modules-2\files-2.1\com.mcxiaoke.volley\library\1.0.19\a8f23f65fc1e522ee4a1a697ee569901a46741fa\library-1.0.19.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="a8f23f65fc1e522ee4a1a697ee569901a46741fa">
+        <dex dex="C:\Users\AdmIn01\Desktop\appliFrais\app\build\intermediates\pre-dexed\debug\library-1.0.19-4b8755b8d01686aff299bcf701f03d735355193e.jar" />
+    </item>
+    <item
+        jar="C:\Users\AdmIn01\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.1.0\support-annotations-23.1.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="92e3fc113ec3ee36b64603a38857b95700025633">
+        <dex dex="C:\Users\AdmIn01\Desktop\appliFrais\app\build\intermediates\pre-dexed\debug\support-annotations-23.1.0-03d854d6c9a954251f74c88a056447d9caf30f7e.jar" />
+    </item>
+    <item
+        jar="C:\Users\AdmIn01\Desktop\appliFrais\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="57ae0d750ff83f0c738d21720224ac7ea866a094">
+        <dex dex="C:\Users\AdmIn01\Desktop\appliFrais\app\build\intermediates\pre-dexed\debug\classes-81a0b8fa09b80af4145ceac79896f1331424cf9f.jar" />
+    </item>
+    <item
+        jar="C:\Users\AdmIn01\Desktop\appliFrais\app\build\intermediates\exploded-aar\com.android.support\design\23.1.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="19026d31f5d3ae868db81319671a642be5fbba08">
+        <dex dex="C:\Users\AdmIn01\Desktop\appliFrais\app\build\intermediates\pre-dexed\debug\classes-70c3337520ab1304e2ee897978aecafe0e11f51a.jar" />
+    </item>
+    <item
+        jar="C:\Users\AdmIn01\Desktop\appliFrais\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.0\jars\libs\internal_impl-23.1.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="8716243bf04bae8d6c9ca94d27b9a9be7236f0a3">
+        <dex dex="C:\Users\AdmIn01\Desktop\appliFrais\app\build\intermediates\pre-dexed\debug\internal_impl-23.1.0-a501b35c6eb87f11d236ad0af7b77e335fcb886c.jar" />
+    </item>
+    <item
+        jar="C:\Users\AdmIn01\Desktop\appliFrais\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.1.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="3f151e49c316a5ab2c065969a3b3b55ef9b393fc">
+        <dex dex="C:\Users\AdmIn01\Desktop\appliFrais\app\build\intermediates\pre-dexed\debug\classes-7c7905158884fc73d585a5c53a61dad22bedae78.jar" />
+    </item>
+
+</items>

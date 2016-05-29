@@ -1,0 +1,47 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:background="#F4F1ED"
+    tools:context=".LoginActivity">
+
+
+    <EditText android:id="@+id/nom"
+        android:layout_marginTop="100dp"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:hint="Identifiant"
+        android:maxLines="1"
+        android:fontFamily="casual"
+        android:gravity="center"
+        android:background="@drawable/rounded_edittext"
+        android:singleLine="true" />
+
+    <EditText android:id="@+id/password"
+        android:layout_marginTop="16dp"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:hint="Mot de passe"
+        android:inputType="textPassword"
+        android:maxLines="1"
+        android:fontFamily="casual"
+        android:gravity="center"
+        android:background="@drawable/rounded_edittext"
+        android:singleLine="true" />
+
+    <Button android:id="@+id/sign_in"
+        android:layout_marginTop="50dp"
+        android:layout_width="190dp"
+        android:layout_height="50dp"
+        android:text="Connexion"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:background="@drawable/buttonshape"
+        android:fontFamily="casual"
+        android:layout_gravity="center_horizontal" />
+
+</LinearLayout>
+
+<!-- From: file:/C:/Users/AdmIn01/Desktop/appliFrais/app/src/main/res/layout/activity_login.xml -->
