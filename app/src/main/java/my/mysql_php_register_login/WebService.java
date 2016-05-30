@@ -20,10 +20,15 @@ public class WebService {
 
 
 
-   private final static String link = "http://192.168.1.16:80/webservice/";
+   //private final static String link = "http://192.168.1.16:80/webservice/";
+   // private final static String link = "http://172.16.9.203:80/webservice/";
 
-   // private final static String link = "http://172.16.8.58/webservice/"; // IP quentin connextion server PREprode
-    //private final static String link = "http://192.168.89.58/webservice/"; // IP quentin connextion server DMZ
+
+ //private final static String link = "http://172.16.8.58/webservice/"; // IP quentin connextion server PREprode salle 8
+   // private final static String link = "http://192.168.89.58/webservice/"; // IP quentin connextion server DMZ salle 8
+
+    //private final static String link = "http://172.16.9.58/webservice/"; // IP quentin connextion server PREprode salle 9
+ private final static String link = "http://192.168.89.78/webservice/"; // IP quentin connextion server DMZ salle 9
 
 
 

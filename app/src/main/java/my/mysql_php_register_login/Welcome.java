@@ -11,6 +11,7 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Spinner;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import org.json.JSONArray;
 import org.json.JSONObject;
@@ -159,8 +160,8 @@ public class Welcome extends Activity {
                             for (Map.Entry<String, String> entry : dictionaryPuissance.entrySet()){
                                 String clePuissance = entry.getKey();
                                 String valeurPuissance = entry.getValue();
-                                //Log.d("ClePuissance", clePuissance);
-                                //Log.d("ValeurPuissance", valeurPuissance);
+                                Log.d("ClePuissance", clePuissance);
+                                Log.d("ValeurPuissance", valeurPuissance);
                                 if (Puissance.equals(clePuissance))
                                 {
                                     Puissance = clePuissance.concat(" - ").concat(valeurPuissance);
@@ -175,8 +176,8 @@ public class Welcome extends Activity {
                             for (Map.Entry<String, String> entry : dictionaryCarburant.entrySet()){
                                 String cleCarburant = entry.getKey();
                                 String valeurCarburant = entry.getValue();
-                                //Log.d("Cle", cleCarburant);
-                                //Log.d("Valeur", valeurCarburant);
+                                Log.d("Cle", cleCarburant);
+                                Log.d("Valeur", valeurCarburant);
                                 if (Carburant.equals(cleCarburant))
                                 {
                                     Carburant = cleCarburant.concat(" - ").concat(valeurCarburant);
@@ -264,7 +265,7 @@ public class Welcome extends Activity {
             @Override
             public void onClick(View view) {
 
-                ((Button) findViewById(R.id.soumission)).setEnabled(false);
+                        ((Button) findViewById(R.id.soumission)).setEnabled(false);
                 final Thread thread = new Thread(new Runnable() {
                     @Override
 
@@ -295,7 +296,7 @@ public class Welcome extends Activity {
 
                             String soumission = WebService.request("service_soumission", jsonsoumission.toString());
 
-                            Log.d("send", soumission);
+
 
 
                         } catch (Exception e) {
@@ -307,15 +308,25 @@ public class Welcome extends Activity {
                 });
                 thread.start();
 
-                new Handler().postDelayed(new Runnable() {
 
-                    @Override
-                    public void run() {
-                        ((Button) findViewById(R.id.soumission))
-                                .setEnabled(true);
 
-                    }
-                },6000);
+                    new Handler().postDelayed(new Runnable() {
+
+
+
+                        @Override
+                        public void run() {
+                            ((Button) findViewById(R.id.soumission))
+                                    .setEnabled(true);
+
+                                Toast.makeText(getApplicationContext(),
+                                        "Vos données ont été envoyées", Toast.LENGTH_LONG).show();
+
+
+                        }
+                    }, 3000);
+
+
 
             }
         });
